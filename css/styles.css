@@ -227,6 +227,16 @@ ul {
   letter-spacing: 0.32px;
 }
 
+.strategy-subtitle-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 /**=============== Section Our team===============*/
 
 .third {
@@ -345,6 +355,12 @@ ul {
 }
 
 /* *==========Footer================ */
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
@@ -374,4 +390,30 @@ ul {
   letter-spacing: 0.32px;
   max-width: 264px;
   /* margin-top: 17.5px; */
+}
+
+.footer-logo-section {
+  margin-right: 120px;
+}
+
+.social-links-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.icon-social-footer {
+  fill: #f4f4fd;
+}
+
+.social-links-list {
+  display: flex;
+  gap: 16px;
+}
+.social-link-li {
+  width: 40px;
+  height: 40px;
 }
