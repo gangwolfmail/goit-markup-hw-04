@@ -67,6 +67,8 @@ ul {
   /* padding-top: 25.5px; */
   /* padding-bottom: 25.5px; */
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .div-header {
@@ -133,6 +135,11 @@ ul {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-link::before,
+.li-strategy-title::after {
+  background: #404bbf;
+}
+
 .header-link {
   color: #2e2f42;
   font-size: 16px;
@@ -140,14 +147,15 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
   padding: 24px 0;
+  display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-link:hover {
-  color: #404bbf;
-}
-
+.header-link:hover,
 .header-link:focus {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .contacts-link {
   color: #434455;
   font-size: 16px;
@@ -211,6 +219,7 @@ ul {
   min-width: 169px;
   margin: 0 auto;
   margin-top: 48px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -494,7 +503,7 @@ ul {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
