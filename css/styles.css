@@ -457,6 +457,10 @@ ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.ul-section-portfolio .li-section-portfolio:first-child {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* *==========Footer================ */
 
 .footer .container {
